@@ -1,0 +1,125 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Playfair Display', serif; /* Elegant Serif font for sophistication */
+  background: linear-gradient(135deg, #2c3e50, #fdcb6e); /* Elegant dark to gold gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #1e3a8a; /* Blue color for text */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Subtle text shadow for elegance */
+}
+
+/* Container Styling */
+.container {
+  background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white background */
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2); /* Deep shadow for a premium look */
+  width: 360px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect on container */
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.3); /* Lift effect on hover */
+}
+
+/* Heading Styling */
+h1 {
+  font-size: 30px; /* Increased font size for better emphasis */
+  color: #1e3a8a; /* Blue color for the heading */
+  margin-bottom: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase; /* Adds a luxurious touch */
+  font-family: 'Playfair Display', serif; /* Serif font for elegance */
+}
+
+/* List styling */
+.todo-list ul {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+/* Todo List Item Styling */
+.todo-list li {
+  background: #fff;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  color: #1e3a8a; /* Blue font color */
+  font-weight: 500;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+/* Hover effect on todo list items */
+.todo-list li:hover {
+  transform: scale(1.03);
+  background-color: #f1c40f; /* Gold highlight on hover */
+  color: #fff; /* Change text color to white */
+}
+
+/* Input Field Styling */
+input[type="text"] {
+  width: 90%;
+  padding: 12px;
+  margin: 15px 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #1e3a8a; /* Blue font color */
+  background-color: #f7f7f7;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Focus effect on input fields */
+input[type="text"]:focus {
+  border-color: #f1c40f;
+  background-color: #fff;
+  outline: none;
+}
+
+/* Button Styling */
+button {
+  padding: 12px 25px;
+  background-color: #f1c40f; /* Rich Gold for button */
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect on button */
+button:hover {
+  background-color: #d35400; /* Darker gold on hover */
+  transform: translateY(-3px); /* Button lift effect */
+}
+
+/* Active effect on button */
+button:active {
+  transform: translateY(0); /* Button goes back to normal */
+}
+
+/* Disabled button state */
+button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+
+
